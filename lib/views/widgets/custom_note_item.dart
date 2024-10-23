@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 import 'package:note_app__arabic/views/edit_note_view.dart';
 import 'package:note_app__arabic/views/widgets/edit_note_view_body.dart';
 
@@ -54,7 +54,7 @@ class NoteItem extends StatelessWidget {
               trailing: IconButton(
                 onPressed: () {},
                 icon: const Icon(
-                  FontAwesomeIcons.trash,
+                  Icons.remove,
                   size: 24,
                   color: Colors.black,
                 ),
